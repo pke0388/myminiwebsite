@@ -1,10 +1,15 @@
- nav{
+          * {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+nav{
                 background-color: #333;
             }
 
             header {
                 background-color: olive;
                 text-align: center;
+                padding:10px;
             }
 
             section {
@@ -14,6 +19,7 @@
             footer {
                 background-color: #333;
                 text-align: center;
+                padding:10px;
             }
 
             article {
@@ -28,6 +34,20 @@
                 color:white;
             }
 
-            * {
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            h2 {
+                color:darkolivegreen;
             }
+
+            h4 {
+                color:white;
+            }
+
+            .foot-p {
+                color:white;
+            }
+
+            header p {
+                color:white;
+            }
+
+            
