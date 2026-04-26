@@ -2,18 +2,46 @@
                 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
 
-nav{
+            body {
+                margin:0;
+            }
+ 
+
+            nav {
                 background-color: #333;
             }
+
+            nav ul {
+              list-style: none;
+              text-align: center;
+              padding:30px;
+              margin-bottom: 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin:15px;
+            }
+
+            nav a {
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+        
 
             header {
                 background-color: olive;
                 text-align: center;
                 padding:10px;
+                padding-bottom: 30;
             }
 
             section {
-                background-color: lightblue;
+                background-color: beige;
+                padding:20px;
             }
 
             footer {
@@ -24,6 +52,10 @@ nav{
 
             article {
                 background-color: seashell;
+                padding:15px;
+                margin-bottom: 25px;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.12);
             }
 
             a {
